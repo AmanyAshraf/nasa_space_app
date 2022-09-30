@@ -1,9 +1,19 @@
 <resources>
-    <string name="app_name">nasa_space_app</string>
+    <string name="app_name">Nasa Space App</string>
     <string name="heading_one">Title 1</string>
     <string name="heading_two">Title 2</string>
     <string name="heading_three">Title 3</string>
     <string name="desc_one">desc 1</string>
     <string name="desc_two">desc 2</string>
     <string name="desc_three">desc 3</string>
+    <string name="info_desc">The Carrington Event was the most intense geomagnetic storm in recorded history, peaking from 1
+to 2 September 1859 during the solar cycle. It created strong auroral displays that were reported
+globally and caused sparking and even fires in multiple telegraph stations. The geomagnetic storm
+was most likely the result of a coronal mass ejection from the Sun colliding with Earth\'s
+magnetosphere.
+The geomagnetic storm was associated with a very bright solar flare on 1 September 1859. It was
+observed and recorded independently by British astronomers Richard Christopher Carrington and
+Richard Hodgson.
+A geomagnetic storm of this magnitude occurring today would cause widespread electrical
+disruptions, blackouts, and damage due to extended outages of the electrical power grid.</string>
 </resources>
