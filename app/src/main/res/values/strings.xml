@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">nasa_space_app</string>
+    <string name="heading_one">Title 1</string>
+    <string name="heading_two">Title 2</string>
+    <string name="heading_three">Title 3</string>
+    <string name="desc_one">desc 1</string>
+    <string name="desc_two">desc 2</string>
+    <string name="desc_three">desc 3</string>
+</resources>
