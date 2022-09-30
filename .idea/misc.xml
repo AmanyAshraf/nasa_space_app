@@ -6,11 +6,12 @@
         <entry key="..\:/nasa_space_app/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1495" />
         <entry key="..\:/nasa_space_app/app/src/main/res/drawable/login_amico.xml" value="0.242" />
         <entry key="..\:/nasa_space_app/app/src/main/res/drawable/sign_up_rafiki__1_.xml" value="0.1495" />
-        <entry key="..\:/nasa_space_app/app/src/main/res/layout/activity_main.xml" value="0.24074074074074073" />
+        <entry key="..\:/nasa_space_app/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/nasa_space_app/app/src/main/res/layout/activity_on_boarding.xml" value="0.24010416666666667" />
         <entry key="..\:/nasa_space_app/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/nasa_space_app/app/src/main/res/layout/fragment_cautions.xml" value="0.14772727272727273" />
         <entry key="..\:/nasa_space_app/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
-        <entry key="..\:/nasa_space_app/app/src/main/res/layout/fragment_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/nasa_space_app/app/src/main/res/layout/fragment_info.xml" value="0.13978494623655913" />
         <entry key="..\:/nasa_space_app/app/src/main/res/layout/rv_list.xml" value="0.264" />
         <entry key="..\:/nasa_space_app/app/src/main/res/layout/slider_layout.xml" value="0.25" />
         <entry key="..\:/nasa_space_app/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />

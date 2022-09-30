@@ -48,7 +48,7 @@ private var _binding: FragmentInfoBinding? = null
       adapter?.submitList(info_list_img)
       binding.rv.adapter = adapter
     adapter?.notifyDataSetChanged()
-      binding.infoDesc.text = getString(R.string.info_desc)
+      binding.infoDesc.text =  getString(R.string.info_desc)
     return root
   }
 
