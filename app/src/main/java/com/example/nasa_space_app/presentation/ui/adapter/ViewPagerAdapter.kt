@@ -15,8 +15,8 @@ import com.example.nasa_space_app.R
 class ViewPagerAdapter(var context: Context) : PagerAdapter() {
     var images = intArrayOf(
         R.drawable.privacy_policy_pana,
-        R.drawable.sign_up_rafiki__1_,
-        R.drawable.login_amico
+        R.drawable.predictions,
+        R.drawable.undraw_warning_re_eoyh
     )
     var headings = intArrayOf(
         R.string.heading_one,

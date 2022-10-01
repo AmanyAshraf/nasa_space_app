@@ -14,16 +14,19 @@
         android:theme="@style/Theme.Nasa_space_app"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.ui.activity.onBoarding"
-            android:theme="@style/Theme.nasa_onBoarding"
+            android:name=".presentation.ui.activity.AboutUs"
             android:exported="false" />
+        <activity
+            android:name=".presentation.ui.activity.onBoarding"
+            android:exported="false"
+            android:theme="@style/Theme.nasa_onBoarding" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".presentation.ui.activity.splash"
-            android:theme="@style/splash"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

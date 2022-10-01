@@ -31,11 +31,12 @@ class onBoarding : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_on_boarding)
-        backbtn = findViewById(R.id.backbtn)
+        backbtn = findViewById(R.id.back_btn)
         nextbtn = findViewById(R.id.nextbtn)
         skipbtn = findViewById(R.id.skipButton)
         elipse = findViewById(R.id.ellipse1)
         elipse?.visibility= View.INVISIBLE
+        backbtn?.visibility = View.INVISIBLE
 
         backbtn?.setOnClickListener(View.OnClickListener {
             if (getitem(0) > 0) {
@@ -92,10 +93,13 @@ class onBoarding : AppCompatActivity() {
             if (position > 0) {
                 backbtn!!.visibility = View.VISIBLE
                 elipse?.visibility= View.VISIBLE
+                backbtn?.visibility = View.VISIBLE
+
 
             } else {
                 backbtn!!.visibility = View.INVISIBLE
                 elipse?.visibility= View.INVISIBLE
+                backbtn?.visibility = View.INVISIBLE
 
             }
         }

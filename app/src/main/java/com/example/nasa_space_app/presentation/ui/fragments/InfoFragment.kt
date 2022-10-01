@@ -1,5 +1,7 @@
 package com.example.nasa_space_app.presentation.ui.fragments
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -49,6 +51,11 @@ private var _binding: FragmentInfoBinding? = null
       binding.rv.adapter = adapter
     adapter?.notifyDataSetChanged()
       binding.infoDesc.text =  getString(R.string.info_desc)
+      binding.readMore.setOnClickListener{
+          val openURL = Intent(Intent.ACTION_VIEW)
+          openURL.data = Uri.parse("http://theconversation.com/solar-storms-could-lead-to-a-global-techno-meltdown-16678")
+          startActivity(openURL)
+      }
     return root
   }
 
@@ -56,4 +63,6 @@ override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
+
+
 }

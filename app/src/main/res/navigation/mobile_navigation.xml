@@ -20,6 +20,6 @@
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.nasa_space_app.presentation.ui.fragments.CautionsFragment"
-        android:label="Cautions"
+        android:label="Pre Cautions"
         tools:layout="@layout/fragment_cautions" />
 </navigation>

@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.nasa_space_app.R
 import com.example.nasa_space_app.databinding.FragmentPredictionBinding
 import com.example.nasa_space_app.presentation.ui.viewmodel.PredictionViewModel
 
@@ -28,10 +29,15 @@ private var _binding: FragmentPredictionBinding? = null
     _binding = FragmentPredictionBinding.inflate(inflater, container, false)
     val root: View = binding.root
 
-    val textView: TextView = binding.textDashboard
-    dashboardViewModel.text.observe(viewLifecycleOwner) {
-      textView.text = it
-    }
+
+    binding.predict.setImageResource(R.drawable.predict)
+    binding.predict2.setImageResource(R.drawable.predict2)
+      binding.linear.visibility = View.GONE
+      binding.predictBtn.setOnClickListener {
+          it.visibility = View.GONE
+          binding.linear.visibility = View.VISIBLE
+
+      }
     return root
   }
 
